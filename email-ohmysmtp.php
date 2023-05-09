@@ -50,8 +50,9 @@ class EmailOhMySmtpPlugin extends Plugin
         $engine = $e['engine'];
         if ($engine === 'ohmysmtp') {
             $options = $this->config->get('plugins.email-ohmysmtp');
-            $dsn = "ohmysmtp+{$options['transport']}://";
-            $dsn .= urlencode($options['api_token']);
+            $transport = $options['transport'] ?? 'api';
+            $dsn = "ohmysmtp+{$transport}://";
+            $dsn .= urlencode($options['api_token'] ?? '');
             $dsn .= "@default";
             $e['dsn'] = $dsn;
             $e->stopPropagation();
