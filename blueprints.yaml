@@ -1,7 +1,7 @@
 name: Email OhMySmtp
 slug: email-ohmysmtp
 type: plugin
-version: 1.0.0
+version: 1.0.1
 description: OhMySmtp integration for new Email plugin
 icon: envelope
 author:
