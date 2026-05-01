@@ -7,22 +7,22 @@ namespace Composer\Autoload;
 class ComposerStaticInitb98694afdded132ac5a4bc2adf7fa5df
 {
     public static $prefixLengthsPsr4 = array (
-        'S' =>
+        'S' => 
         array (
             'Symfony\\Component\\Mailer\\Bridge\\OhMySmtp\\' => 41,
         ),
-        'G' =>
+        'G' => 
         array (
             'Grav\\Plugin\\EmailOhMySmtp\\' => 26,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Component\\Mailer\\Bridge\\OhMySmtp\\' =>
+        'Symfony\\Component\\Mailer\\Bridge\\OhMySmtp\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/oh-my-smtp-mailer',
         ),
-        'Grav\\Plugin\\EmailOhMySmtp\\' =>
+        'Grav\\Plugin\\EmailOhMySmtp\\' => 
         array (
             0 => __DIR__ . '/../..' . '/classes',
         ),

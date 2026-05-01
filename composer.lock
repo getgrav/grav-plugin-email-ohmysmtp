@@ -8,22 +8,22 @@
     "packages": [
         {
             "name": "symfony/oh-my-smtp-mailer",
-            "version": "v5.4.11",
+            "version": "v5.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/oh-my-smtp-mailer.git",
-                "reference": "254e26005b7d47ff4143be89cf533193c180cd3e"
+                "reference": "d002af923492b4992cfbe26ac4e32c5254839be9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/oh-my-smtp-mailer/zipball/254e26005b7d47ff4143be89cf533193c180cd3e",
-                "reference": "254e26005b7d47ff4143be89cf533193c180cd3e",
+                "url": "https://api.github.com/repos/symfony/oh-my-smtp-mailer/zipball/d002af923492b4992cfbe26ac4e32c5254839be9",
+                "reference": "d002af923492b4992cfbe26ac4e32c5254839be9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
                 "psr/event-dispatcher": "^1",
-                "symfony/mailer": "^5.3.0|^6.0"
+                "symfony/mailer": "^5.4.21|^6.2.7"
             },
             "require-dev": {
                 "symfony/http-client": "^4.4|^5.0|^6.0"
@@ -58,7 +58,7 @@
             "description": "Symfony OhMySMTP Mailer Bridge",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/oh-my-smtp-mailer/tree/v5.4.11"
+                "source": "https://github.com/symfony/oh-my-smtp-mailer/tree/v5.4.35"
             },
             "funding": [
                 {
@@ -75,7 +75,7 @@
                 }
             ],
             "abandoned": "symfony/mail-pace-mailer",
-            "time": "2022-06-27T16:58:25+00:00"
+            "time": "2024-01-23T13:51:25+00:00"
         }
     ],
     "packages-dev": [],
@@ -91,5 +91,5 @@
     "platform-overrides": {
         "php": "7.3.6"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
